@@ -111,6 +111,10 @@ nav li>a {
 }
 
 /* main section styles  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about {
@@ -119,4 +123,13 @@ nav li>a {
     padding: 130px;
     margin-top: 130px;
 
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
 }
